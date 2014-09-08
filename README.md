@@ -6,4 +6,4 @@ Test your memory!
 
   - el (required): selector or DOM element to render the game
   - size (5): the size of the matrix
-  - numToChoose: number of tiles to remember
+  - numToChoose (9): number of tiles to remember
