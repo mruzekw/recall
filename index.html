@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <hgroup>
+      <h1 class="logo">Recall</h1>
+      <h2>Select the nine tiles you see to win!</h2>
+    </hgroup>
+
+    <div class="game-container">
+    </div>
+
+    <script>
+      (function (Recall) {
+
+        document.addEventListener('DOMContentLoaded', function(event) {
+          var game = new Recall({
+            el: '.game-container'
+          });
+
+          game.start();
+        });
+
+      })(window.Recall);
+    </script>
+  </body>
+
+</html>
