@@ -1,5 +1,5 @@
 # Recall
-## Written with vanilla JS
+**Written with vanilla JS**
 
 Test your memory!
 
